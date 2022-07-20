@@ -1,0 +1,68 @@
+.music-player {
+  display:flex;
+  justify-content:center;
+  margin-top: 2em;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.track-artwork-container {
+  width:50%;
+}
+
+.track-img {
+  width:100%;
+}
+
+.track-title {
+  margin-bottom:0;
+  margin-left: 2em;
+}
+
+.track-artist {
+  margin-top:10px;
+  margin-left: 2.5em;
+}
+
+.music-player-btns {
+  display:flex;
+  justify-content: space-between;
+  width:70%;
+  margin: 0 auto;
+}
+
+.btn-container {
+  width:20%;
+}
+
+
+
+.prev-btn,
+.play-btn,
+.next-btn {
+  width:50%;
+  cursor:pointer;
+}
+
+.pause-btn{
+  width:50%;
+  cursor:pointer;
+ 
+}
+
+.pause-btn:hover {
+  opacity: 0.4;
+}
+
+.prev-btn:hover {
+ opacity: 0.24
+}
+
+.play-btn:hover {
+  opacity:0.2
+}
+
+.next-btn:hover {
+  opacity:0.2;
+}
+
